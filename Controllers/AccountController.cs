@@ -92,7 +92,7 @@ namespace Api.Controllers
         {
             return new UserDto
             {
-                //Id = user.Id.ToString(),
+                Id = user.Id.ToString(),
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Email = user.Email,
@@ -240,7 +240,7 @@ namespace Api.Controllers
 
             var userToAdd = new User
             {
-                //Id = model.Id.ToString(),
+                //  Id = model.Id.ToString(),
                 FirstName = model.FirstName.ToLower(),
                 LastName = model.LastName.ToLower(),
                 UserName = model.Email.ToLower(),
@@ -314,11 +314,6 @@ namespace Api.Controllers
                 return BadRequest("Failed to send email. Please contact admin");
             }
         }
-
-
-
-
-
 
 
         [HttpPost("reset-password")]
