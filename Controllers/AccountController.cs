@@ -58,35 +58,26 @@ namespace Api.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
+
         [Authorize]
         [HttpGet("refresh-user-token")]
         public async Task<ActionResult<UserDto>> RefreshUserToken()
         {
-            var email = User.FindFirst(ClaimTypes.Email)?.Value;
-            var user = await _userManager.FindByNameAsync(email);
+            var user = await _userManager.FindByNameAsync(User.FindFirst(ClaimTypes.Email)?.Value);
+            var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.Email == user.UserName);
+            var admin = await _context.Admins.FirstOrDefaultAsync(d => d.Email == user.UserName);
+            string userType = admin != null ? "Admin" : doctor != null ? "Doctor" : "User";
 
-            if (user != null)
+            return new UserDto
             {
-                return CreateApplicationUserDto(user);
-            }
-
-            var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.Email == email);
-            if (doctor != null)
-            {
-                var userFromDoctor = new User
-                {
-                    Id = doctor.Id.ToString(),
-                    FirstName = doctor.FirstName,
-                    PrivateNumber = doctor.PrivateNumber,
-                    LastName = doctor.LastName,
-                    Email = doctor.Email
-                    // Add any other properties if needed
-                };
-                return CreateApplicationUserDto(userFromDoctor);
-            }
-
-            // If neither user nor doctor is found, return unauthorized
-            return Unauthorized();
+                Id = user.Id.ToString(),
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                PrivateNumber = user.PrivateNumber,
+                JWT = _jwtService.CreateJWT(user),
+                Type = userType
+            };
         }
         private UserDto CreateApplicationUserDto(User user, string type)
         {
