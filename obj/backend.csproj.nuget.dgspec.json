@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/backend.csproj": {}
+    "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/backend.csproj": {}
   },
   "projects": {
-    "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/backend.csproj": {
+    "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/backend.csproj",
+        "projectUniqueName": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/backend.csproj",
         "projectName": "backend",
-        "projectPath": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/backend.csproj",
+        "projectPath": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/backend.csproj",
         "packagesPath": "/Users/sabashubitidze/.nuget/packages/",
-        "outputPath": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/obj/",
+        "outputPath": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sabashubitidze/.nuget/NuGet/NuGet.Config"
@@ -63,13 +63,17 @@
               "target": "Package",
               "version": "[9.0.0-preview.2.24128.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

@@ -16,7 +16,7 @@ namespace backend.Models
         public required string PrivateNumber { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
 
-
+        public string ResetCode { get; set; } = "";
 
 
     }

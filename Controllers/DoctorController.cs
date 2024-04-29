@@ -127,9 +127,16 @@ namespace backend.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<DoctorDto>>> GetDoctors()
+        public async Task<ActionResult<IEnumerable<DoctorDto>>> GetDoctors(int? amount)
         {
-            var doctors = await _context.Doctors.ToListAsync();
+            IQueryable<Doctor> query = _context.Doctors;
+
+            if (amount.HasValue)
+            {
+                query = query.Take(amount.Value);
+            }
+
+            var doctors = await query.ToListAsync();
 
             var doctorDtos = doctors.Select(d => new DoctorDto
             {
@@ -145,6 +152,7 @@ namespace backend.Controllers
 
             return Ok(doctorDtos);
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<DoctorDto>> GetDoctorById(int id)
         {

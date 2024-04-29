@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UI9jZimD44iA09Nxg9l7VDXdLq58zN5rPG8YNYN/wQo=",
+  "Hash": "my9Mi0+i+EpWyw6hULG2+5sJFkGDWoEB+NWWHHzNcok=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "backend/wwwroot",
       "Source": "backend",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/059a6fc4-b32c-4aef-8db1-d1880a923121.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/059a6fc4-b32c-4aef-8db1-d1880a923121.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "059a6fc4-b32c-4aef-8db1-d1880a923121.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot/059a6fc4-b32c-4aef-8db1-d1880a923121.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/072f867d-e389-4983-9e75-32ef0d1c055d.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/072f867d-e389-4983-9e75-32ef0d1c055d.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "072f867d-e389-4983-9e75-32ef0d1c055d.pdf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot/072f867d-e389-4983-9e75-32ef0d1c055d.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/07ee36c8-34a7-4002-a541-f6ea5c4ac8a2.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/07ee36c8-34a7-4002-a541-f6ea5c4ac8a2.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "07ee36c8-34a7-4002-a541-f6ea5c4ac8a2.docx",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/07ee36c8-34a7-4002-a541-f6ea5c4ac8a2.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/07eeef11-59dc-4346-859d-e7e0a7c46a1a.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/07eeef11-59dc-4346-859d-e7e0a7c46a1a.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "07eeef11-59dc-4346-859d-e7e0a7c46a1a.docx",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot/07eeef11-59dc-4346-859d-e7e0a7c46a1a.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/094b80ac-d1be-4ad7-8a38-63a986d53db8.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/0915821b-75c7-4635-81e5-3393fc4dc2ef.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "0915821b-75c7-4635-81e5-3393fc4dc2ef.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/0915821b-75c7-4635-81e5-3393fc4dc2ef.docx"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/094b80ac-d1be-4ad7-8a38-63a986d53db8.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "094b80ac-d1be-4ad7-8a38-63a986d53db8.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/094b80ac-d1be-4ad7-8a38-63a986d53db8.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/0a0cba99-41b1-4a0e-b6f2-a108f61a8542.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/0a0cba99-41b1-4a0e-b6f2-a108f61a8542.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "0a0cba99-41b1-4a0e-b6f2-a108f61a8542.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/0a0cba99-41b1-4a0e-b6f2-a108f61a8542.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/0a7d8792-f723-416a-b568-9dd8b0bad548.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/0a7d8792-f723-416a-b568-9dd8b0bad548.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "0a7d8792-f723-416a-b568-9dd8b0bad548.pdf",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/0a7d8792-f723-416a-b568-9dd8b0bad548.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/0df961fa-1618-4ac1-9293-e306e2d0885e.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/0df961fa-1618-4ac1-9293-e306e2d0885e.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "0df961fa-1618-4ac1-9293-e306e2d0885e.docx",
       "AssetKind": "All",
@@ -169,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/0df961fa-1618-4ac1-9293-e306e2d0885e.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/1723d290-f6ee-496f-8421-2d7cef80a67a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/1723d290-f6ee-496f-8421-2d7cef80a67a.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "1723d290-f6ee-496f-8421-2d7cef80a67a.pdf",
       "AssetKind": "All",
@@ -188,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/1723d290-f6ee-496f-8421-2d7cef80a67a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/19f32827-ca37-4f90-a899-5fa05d938f27.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/19f32827-ca37-4f90-a899-5fa05d938f27.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "19f32827-ca37-4f90-a899-5fa05d938f27.jpg",
       "AssetKind": "All",
@@ -207,10 +226,29 @@
       "OriginalItemSpec": "wwwroot/19f32827-ca37-4f90-a899-5fa05d938f27.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/1e4c1792-3ab1-46e1-aaaa-209c2da8e4f6.png",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/1a7b3c58-f3ab-4d12-975f-65f63fb9221d.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "1a7b3c58-f3ab-4d12-975f-65f63fb9221d.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/1a7b3c58-f3ab-4d12-975f-65f63fb9221d.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/1e4c1792-3ab1-46e1-aaaa-209c2da8e4f6.png",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "1e4c1792-3ab1-46e1-aaaa-209c2da8e4f6.png",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/1e4c1792-3ab1-46e1-aaaa-209c2da8e4f6.png"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/1e82a957-514d-48fb-8ed1-d9e5903082c4.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/1e82a957-514d-48fb-8ed1-d9e5903082c4.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "1e82a957-514d-48fb-8ed1-d9e5903082c4.jpg",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/1e82a957-514d-48fb-8ed1-d9e5903082c4.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/27d2c926-bd58-4e2a-9446-1dc82e6c208d.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/27d2c926-bd58-4e2a-9446-1dc82e6c208d.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "27d2c926-bd58-4e2a-9446-1dc82e6c208d.jpg",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/27d2c926-bd58-4e2a-9446-1dc82e6c208d.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/27e5a871-1db4-411a-94b4-39456ca957f1.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/27e5a871-1db4-411a-94b4-39456ca957f1.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "27e5a871-1db4-411a-94b4-39456ca957f1.jpg",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/27e5a871-1db4-411a-94b4-39456ca957f1.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/28b5bb0c-9e63-41b8-b47d-28d0effd2c3e.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/28b5bb0c-9e63-41b8-b47d-28d0effd2c3e.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "28b5bb0c-9e63-41b8-b47d-28d0effd2c3e.pdf",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/28b5bb0c-9e63-41b8-b47d-28d0effd2c3e.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/2a037b43-10a4-4187-958b-960b542e7fdb.png",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2a037b43-10a4-4187-958b-960b542e7fdb.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "2a037b43-10a4-4187-958b-960b542e7fdb.png",
       "AssetKind": "All",
@@ -321,10 +359,67 @@
       "OriginalItemSpec": "wwwroot/2a037b43-10a4-4187-958b-960b542e7fdb.png"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/2fe45dba-5d7f-4388-afee-aa965c7bee2a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2bc2e9f4-e8e1-4ea2-9e7f-aa0f67f5c1bb.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "2bc2e9f4-e8e1-4ea2-9e7f-aa0f67f5c1bb.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/2bc2e9f4-e8e1-4ea2-9e7f-aa0f67f5c1bb.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2e70db3f-0336-4506-943b-555b3c22f05e.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "2e70db3f-0336-4506-943b-555b3c22f05e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/2e70db3f-0336-4506-943b-555b3c22f05e.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2ec1fae5-c458-4c82-8a09-7aeb3fbe37d6.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "2ec1fae5-c458-4c82-8a09-7aeb3fbe37d6.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/2ec1fae5-c458-4c82-8a09-7aeb3fbe37d6.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2fe45dba-5d7f-4388-afee-aa965c7bee2a.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "2fe45dba-5d7f-4388-afee-aa965c7bee2a.pdf",
       "AssetKind": "All",
@@ -340,10 +435,10 @@
       "OriginalItemSpec": "wwwroot/2fe45dba-5d7f-4388-afee-aa965c7bee2a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/31199326-fbd1-4eaa-8eed-ef0b299c92e2.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/31199326-fbd1-4eaa-8eed-ef0b299c92e2.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "31199326-fbd1-4eaa-8eed-ef0b299c92e2.jpg",
       "AssetKind": "All",
@@ -359,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/31199326-fbd1-4eaa-8eed-ef0b299c92e2.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/31af6662-cc94-41ba-ade9-e7344f2a300a.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/31af6662-cc94-41ba-ade9-e7344f2a300a.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "31af6662-cc94-41ba-ade9-e7344f2a300a.jpg",
       "AssetKind": "All",
@@ -378,10 +473,10 @@
       "OriginalItemSpec": "wwwroot/31af6662-cc94-41ba-ade9-e7344f2a300a.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/342f320d-ec83-4c77-afcc-841090b7f464.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/342f320d-ec83-4c77-afcc-841090b7f464.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "342f320d-ec83-4c77-afcc-841090b7f464.jpg",
       "AssetKind": "All",
@@ -397,10 +492,29 @@
       "OriginalItemSpec": "wwwroot/342f320d-ec83-4c77-afcc-841090b7f464.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/36e855c5-879e-4f9a-9ecb-385c2dccce38.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/35f665ab-1b27-4282-9aa0-037e51e5df2f.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "35f665ab-1b27-4282-9aa0-037e51e5df2f.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/35f665ab-1b27-4282-9aa0-037e51e5df2f.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/36e855c5-879e-4f9a-9ecb-385c2dccce38.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "36e855c5-879e-4f9a-9ecb-385c2dccce38.pdf",
       "AssetKind": "All",
@@ -416,10 +530,10 @@
       "OriginalItemSpec": "wwwroot/36e855c5-879e-4f9a-9ecb-385c2dccce38.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/381adda6-a829-42ac-96be-a61433553e26.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/381adda6-a829-42ac-96be-a61433553e26.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "381adda6-a829-42ac-96be-a61433553e26.pdf",
       "AssetKind": "All",
@@ -435,10 +549,10 @@
       "OriginalItemSpec": "wwwroot/381adda6-a829-42ac-96be-a61433553e26.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/382fd18b-7c63-4ec1-b8ef-f50500b50a28.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/382fd18b-7c63-4ec1-b8ef-f50500b50a28.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "382fd18b-7c63-4ec1-b8ef-f50500b50a28.pdf",
       "AssetKind": "All",
@@ -454,10 +568,29 @@
       "OriginalItemSpec": "wwwroot/382fd18b-7c63-4ec1-b8ef-f50500b50a28.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/3f277d99-6f3d-49f1-9608-4a6235f942ad.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3e420a5d-d62e-4d1a-890c-286df7de5128.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "3e420a5d-d62e-4d1a-890c-286df7de5128.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/3e420a5d-d62e-4d1a-890c-286df7de5128.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3f277d99-6f3d-49f1-9608-4a6235f942ad.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "3f277d99-6f3d-49f1-9608-4a6235f942ad.jpg",
       "AssetKind": "All",
@@ -473,10 +606,10 @@
       "OriginalItemSpec": "wwwroot/3f277d99-6f3d-49f1-9608-4a6235f942ad.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/3f572d9c-1e61-4678-a92c-133a778e6f33.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3f572d9c-1e61-4678-a92c-133a778e6f33.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "3f572d9c-1e61-4678-a92c-133a778e6f33.jpg",
       "AssetKind": "All",
@@ -492,10 +625,10 @@
       "OriginalItemSpec": "wwwroot/3f572d9c-1e61-4678-a92c-133a778e6f33.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/3ffabdaf-9517-4dd9-9885-9283868f4678.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3ffabdaf-9517-4dd9-9885-9283868f4678.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "3ffabdaf-9517-4dd9-9885-9283868f4678.jpg",
       "AssetKind": "All",
@@ -511,10 +644,10 @@
       "OriginalItemSpec": "wwwroot/3ffabdaf-9517-4dd9-9885-9283868f4678.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4197f4e3-01b2-4cc7-8ec9-71bb686e3cbb.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4197f4e3-01b2-4cc7-8ec9-71bb686e3cbb.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4197f4e3-01b2-4cc7-8ec9-71bb686e3cbb.jpg",
       "AssetKind": "All",
@@ -530,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/4197f4e3-01b2-4cc7-8ec9-71bb686e3cbb.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/426918bd-0df0-4fd8-8b30-0517a1f67b7e.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/426918bd-0df0-4fd8-8b30-0517a1f67b7e.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "426918bd-0df0-4fd8-8b30-0517a1f67b7e.pdf",
       "AssetKind": "All",
@@ -549,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/426918bd-0df0-4fd8-8b30-0517a1f67b7e.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/44e0b64a-79e6-470f-9326-004f05c5facf.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/44e0b64a-79e6-470f-9326-004f05c5facf.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "44e0b64a-79e6-470f-9326-004f05c5facf.jpg",
       "AssetKind": "All",
@@ -568,10 +701,10 @@
       "OriginalItemSpec": "wwwroot/44e0b64a-79e6-470f-9326-004f05c5facf.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4626736a-ac2e-472b-be73-bece314db509.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4626736a-ac2e-472b-be73-bece314db509.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4626736a-ac2e-472b-be73-bece314db509.jpg",
       "AssetKind": "All",
@@ -587,10 +720,10 @@
       "OriginalItemSpec": "wwwroot/4626736a-ac2e-472b-be73-bece314db509.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/47c3b2a8-f922-4f7e-8bd9-2d85a1843a8a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/47c3b2a8-f922-4f7e-8bd9-2d85a1843a8a.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "47c3b2a8-f922-4f7e-8bd9-2d85a1843a8a.pdf",
       "AssetKind": "All",
@@ -606,10 +739,10 @@
       "OriginalItemSpec": "wwwroot/47c3b2a8-f922-4f7e-8bd9-2d85a1843a8a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/47df8a90-2ff8-4c90-97f8-6f0a4f7690b7.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/47df8a90-2ff8-4c90-97f8-6f0a4f7690b7.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "47df8a90-2ff8-4c90-97f8-6f0a4f7690b7.pdf",
       "AssetKind": "All",
@@ -625,10 +758,10 @@
       "OriginalItemSpec": "wwwroot/47df8a90-2ff8-4c90-97f8-6f0a4f7690b7.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/484b2e06-bdc0-4f6b-a4d2-63571a906173.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/484b2e06-bdc0-4f6b-a4d2-63571a906173.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "484b2e06-bdc0-4f6b-a4d2-63571a906173.pdf",
       "AssetKind": "All",
@@ -644,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/484b2e06-bdc0-4f6b-a4d2-63571a906173.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/48f87bd8-fbe0-40f7-bbe4-ed2a258569f6.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/48f87bd8-fbe0-40f7-bbe4-ed2a258569f6.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "48f87bd8-fbe0-40f7-bbe4-ed2a258569f6.pdf",
       "AssetKind": "All",
@@ -663,10 +796,10 @@
       "OriginalItemSpec": "wwwroot/48f87bd8-fbe0-40f7-bbe4-ed2a258569f6.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4c9d4b8e-fb8f-4dcf-bcff-3506fd9acb92.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4c9d4b8e-fb8f-4dcf-bcff-3506fd9acb92.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4c9d4b8e-fb8f-4dcf-bcff-3506fd9acb92.pdf",
       "AssetKind": "All",
@@ -682,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/4c9d4b8e-fb8f-4dcf-bcff-3506fd9acb92.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4e25fc50-969c-4f51-90a1-03ebe581512c.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4e25fc50-969c-4f51-90a1-03ebe581512c.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4e25fc50-969c-4f51-90a1-03ebe581512c.jpg",
       "AssetKind": "All",
@@ -701,10 +834,10 @@
       "OriginalItemSpec": "wwwroot/4e25fc50-969c-4f51-90a1-03ebe581512c.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4f0e85e7-9799-425a-b5c1-333aec2e929a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4f0e85e7-9799-425a-b5c1-333aec2e929a.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4f0e85e7-9799-425a-b5c1-333aec2e929a.pdf",
       "AssetKind": "All",
@@ -720,10 +853,10 @@
       "OriginalItemSpec": "wwwroot/4f0e85e7-9799-425a-b5c1-333aec2e929a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/4f6fc037-6709-483f-af48-2ba5ad654e4a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/4f6fc037-6709-483f-af48-2ba5ad654e4a.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "4f6fc037-6709-483f-af48-2ba5ad654e4a.pdf",
       "AssetKind": "All",
@@ -739,10 +872,10 @@
       "OriginalItemSpec": "wwwroot/4f6fc037-6709-483f-af48-2ba5ad654e4a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/5147cbbc-c0da-4e6b-b4bc-9cfe1f85b11f.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/5147cbbc-c0da-4e6b-b4bc-9cfe1f85b11f.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "5147cbbc-c0da-4e6b-b4bc-9cfe1f85b11f.pdf",
       "AssetKind": "All",
@@ -758,10 +891,10 @@
       "OriginalItemSpec": "wwwroot/5147cbbc-c0da-4e6b-b4bc-9cfe1f85b11f.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/528c9965-d4b0-470d-8c6f-e7abbb764562.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/528c9965-d4b0-470d-8c6f-e7abbb764562.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "528c9965-d4b0-470d-8c6f-e7abbb764562.pdf",
       "AssetKind": "All",
@@ -777,10 +910,10 @@
       "OriginalItemSpec": "wwwroot/528c9965-d4b0-470d-8c6f-e7abbb764562.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/54c3b4a5-9785-49a0-a8b3-1cecc9c9de93.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/54c3b4a5-9785-49a0-a8b3-1cecc9c9de93.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "54c3b4a5-9785-49a0-a8b3-1cecc9c9de93.jpg",
       "AssetKind": "All",
@@ -796,10 +929,10 @@
       "OriginalItemSpec": "wwwroot/54c3b4a5-9785-49a0-a8b3-1cecc9c9de93.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/597c848a-9a90-48c6-a063-ffddbde79323.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/597c848a-9a90-48c6-a063-ffddbde79323.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "597c848a-9a90-48c6-a063-ffddbde79323.pdf",
       "AssetKind": "All",
@@ -815,10 +948,29 @@
       "OriginalItemSpec": "wwwroot/597c848a-9a90-48c6-a063-ffddbde79323.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/5b7e9ac7-e26f-45cd-99c4-a54e9aaccc6e.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/5abd5bdd-c253-41f9-a247-c0784e155586.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "5abd5bdd-c253-41f9-a247-c0784e155586.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/5abd5bdd-c253-41f9-a247-c0784e155586.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/5b7e9ac7-e26f-45cd-99c4-a54e9aaccc6e.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "5b7e9ac7-e26f-45cd-99c4-a54e9aaccc6e.jpg",
       "AssetKind": "All",
@@ -834,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/5b7e9ac7-e26f-45cd-99c4-a54e9aaccc6e.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/5befff69-60a7-40ad-8f34-11bbe2d29556.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/5befff69-60a7-40ad-8f34-11bbe2d29556.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "5befff69-60a7-40ad-8f34-11bbe2d29556.jpg",
       "AssetKind": "All",
@@ -853,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot/5befff69-60a7-40ad-8f34-11bbe2d29556.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/5fef1871-9617-4f8f-8c9a-f89af2dfc778.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/5fef1871-9617-4f8f-8c9a-f89af2dfc778.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "5fef1871-9617-4f8f-8c9a-f89af2dfc778.pdf",
       "AssetKind": "All",
@@ -872,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot/5fef1871-9617-4f8f-8c9a-f89af2dfc778.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/623a81d2-5827-4413-8e81-498312df5be5.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/623a81d2-5827-4413-8e81-498312df5be5.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "623a81d2-5827-4413-8e81-498312df5be5.jpg",
       "AssetKind": "All",
@@ -891,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot/623a81d2-5827-4413-8e81-498312df5be5.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/66dcbaac-cd60-44cd-8b75-e0e4b0416ca2.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/66dcbaac-cd60-44cd-8b75-e0e4b0416ca2.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "66dcbaac-cd60-44cd-8b75-e0e4b0416ca2.pdf",
       "AssetKind": "All",
@@ -910,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot/66dcbaac-cd60-44cd-8b75-e0e4b0416ca2.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/6e139b1b-304d-4768-bc24-75a297ff687b.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/6e139b1b-304d-4768-bc24-75a297ff687b.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "6e139b1b-304d-4768-bc24-75a297ff687b.jpg",
       "AssetKind": "All",
@@ -929,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot/6e139b1b-304d-4768-bc24-75a297ff687b.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/6f04cc7f-29b4-4135-a6e4-bdc52ad5ad6f.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/6f04cc7f-29b4-4135-a6e4-bdc52ad5ad6f.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "6f04cc7f-29b4-4135-a6e4-bdc52ad5ad6f.jpg",
       "AssetKind": "All",
@@ -948,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/6f04cc7f-29b4-4135-a6e4-bdc52ad5ad6f.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/6f0f965d-6fc2-4509-bc0d-9394bf197b01.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/6f0f965d-6fc2-4509-bc0d-9394bf197b01.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "6f0f965d-6fc2-4509-bc0d-9394bf197b01.jpg",
       "AssetKind": "All",
@@ -967,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot/6f0f965d-6fc2-4509-bc0d-9394bf197b01.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/73c5d71f-432a-4e0e-b242-da781cb47e04.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/73c5d71f-432a-4e0e-b242-da781cb47e04.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "73c5d71f-432a-4e0e-b242-da781cb47e04.pdf",
       "AssetKind": "All",
@@ -986,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot/73c5d71f-432a-4e0e-b242-da781cb47e04.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/76f5178b-a641-4c35-96a8-d565e2e01501.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/76f5178b-a641-4c35-96a8-d565e2e01501.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "76f5178b-a641-4c35-96a8-d565e2e01501.pdf",
       "AssetKind": "All",
@@ -1005,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot/76f5178b-a641-4c35-96a8-d565e2e01501.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/7c7b5910-4aba-4851-b933-4c002cd39d94.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/7c7b5910-4aba-4851-b933-4c002cd39d94.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "7c7b5910-4aba-4851-b933-4c002cd39d94.pdf",
       "AssetKind": "All",
@@ -1024,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot/7c7b5910-4aba-4851-b933-4c002cd39d94.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/80b8efdc-31e9-423e-8a99-eccff8dbd0f8.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/80b8efdc-31e9-423e-8a99-eccff8dbd0f8.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "80b8efdc-31e9-423e-8a99-eccff8dbd0f8.jpg",
       "AssetKind": "All",
@@ -1043,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/80b8efdc-31e9-423e-8a99-eccff8dbd0f8.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg",
       "AssetKind": "All",
@@ -1062,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/8ad9c352-350c-4712-aaef-f5b611047e5a.png",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/8ad9c352-350c-4712-aaef-f5b611047e5a.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "8ad9c352-350c-4712-aaef-f5b611047e5a.png",
       "AssetKind": "All",
@@ -1081,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/8ad9c352-350c-4712-aaef-f5b611047e5a.png"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/8d81831d-a2cf-43c0-8e6f-53d8a7fd161c.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/8d81831d-a2cf-43c0-8e6f-53d8a7fd161c.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "8d81831d-a2cf-43c0-8e6f-53d8a7fd161c.jpg",
       "AssetKind": "All",
@@ -1100,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/8d81831d-a2cf-43c0-8e6f-53d8a7fd161c.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/8e439da5-544f-427a-83f9-69ab2220b668.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/8e439da5-544f-427a-83f9-69ab2220b668.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "8e439da5-544f-427a-83f9-69ab2220b668.jpg",
       "AssetKind": "All",
@@ -1119,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot/8e439da5-544f-427a-83f9-69ab2220b668.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/9024109d-41c7-4d7a-9c4b-cc3f6aa8ab98.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/9024109d-41c7-4d7a-9c4b-cc3f6aa8ab98.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "9024109d-41c7-4d7a-9c4b-cc3f6aa8ab98.pdf",
       "AssetKind": "All",
@@ -1138,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot/9024109d-41c7-4d7a-9c4b-cc3f6aa8ab98.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/96d4bb15-834f-4a60-88cb-7062eec46340.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/96d4bb15-834f-4a60-88cb-7062eec46340.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "96d4bb15-834f-4a60-88cb-7062eec46340.pdf",
       "AssetKind": "All",
@@ -1157,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/96d4bb15-834f-4a60-88cb-7062eec46340.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/99ec3e8b-2bec-4722-86c5-a5da908d7bb6.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/99ec3e8b-2bec-4722-86c5-a5da908d7bb6.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "99ec3e8b-2bec-4722-86c5-a5da908d7bb6.jpg",
       "AssetKind": "All",
@@ -1176,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot/99ec3e8b-2bec-4722-86c5-a5da908d7bb6.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/9a71db9a-e2e1-4f28-9f5f-53407ed3034c.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/9a71db9a-e2e1-4f28-9f5f-53407ed3034c.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "9a71db9a-e2e1-4f28-9f5f-53407ed3034c.jpg",
       "AssetKind": "All",
@@ -1195,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot/9a71db9a-e2e1-4f28-9f5f-53407ed3034c.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/a333bf35-5b84-4849-8257-f7e03b57ecd5.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/a333bf35-5b84-4849-8257-f7e03b57ecd5.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "a333bf35-5b84-4849-8257-f7e03b57ecd5.pdf",
       "AssetKind": "All",
@@ -1214,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot/a333bf35-5b84-4849-8257-f7e03b57ecd5.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/a59a2dc9-a4a2-4de4-b12e-9ddce86eabc9.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/a59a2dc9-a4a2-4de4-b12e-9ddce86eabc9.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "a59a2dc9-a4a2-4de4-b12e-9ddce86eabc9.pdf",
       "AssetKind": "All",
@@ -1233,10 +1385,29 @@
       "OriginalItemSpec": "wwwroot/a59a2dc9-a4a2-4de4-b12e-9ddce86eabc9.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/a89fe923-ee22-49ed-9dad-d0dd0f8c6a57.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/a64a1eca-f8be-4cba-9752-2aa2d43f3b3e.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "a64a1eca-f8be-4cba-9752-2aa2d43f3b3e.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/a64a1eca-f8be-4cba-9752-2aa2d43f3b3e.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/a89fe923-ee22-49ed-9dad-d0dd0f8c6a57.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "a89fe923-ee22-49ed-9dad-d0dd0f8c6a57.pdf",
       "AssetKind": "All",
@@ -1252,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot/a89fe923-ee22-49ed-9dad-d0dd0f8c6a57.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/a8d3ee27-3b2c-4dee-bfeb-054ded82aa13.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/a8d3ee27-3b2c-4dee-bfeb-054ded82aa13.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "a8d3ee27-3b2c-4dee-bfeb-054ded82aa13.docx",
       "AssetKind": "All",
@@ -1271,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot/a8d3ee27-3b2c-4dee-bfeb-054ded82aa13.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/aa91d6d8-aee7-4129-848b-a54c439a62cf.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/aa91d6d8-aee7-4129-848b-a54c439a62cf.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "aa91d6d8-aee7-4129-848b-a54c439a62cf.docx",
       "AssetKind": "All",
@@ -1290,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot/aa91d6d8-aee7-4129-848b-a54c439a62cf.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ac435db3-ab9e-4039-aeac-c8f825ddaa21.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ac435db3-ab9e-4039-aeac-c8f825ddaa21.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ac435db3-ab9e-4039-aeac-c8f825ddaa21.jpg",
       "AssetKind": "All",
@@ -1309,10 +1480,29 @@
       "OriginalItemSpec": "wwwroot/ac435db3-ab9e-4039-aeac-c8f825ddaa21.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/afaea222-196a-482e-b6de-7cfb4762f308.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ae6de1b0-ef02-44e0-b45d-7752dab7c64f.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "ae6de1b0-ef02-44e0-b45d-7752dab7c64f.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ae6de1b0-ef02-44e0-b45d-7752dab7c64f.docx"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/afaea222-196a-482e-b6de-7cfb4762f308.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "afaea222-196a-482e-b6de-7cfb4762f308.jpg",
       "AssetKind": "All",
@@ -1328,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot/afaea222-196a-482e-b6de-7cfb4762f308.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/b10ece8b-d971-4c9b-9575-bd3479c50937.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/b10ece8b-d971-4c9b-9575-bd3479c50937.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "b10ece8b-d971-4c9b-9575-bd3479c50937.jpg",
       "AssetKind": "All",
@@ -1347,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot/b10ece8b-d971-4c9b-9575-bd3479c50937.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/b479a698-430c-4e16-87c0-a080305882a3.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/b479a698-430c-4e16-87c0-a080305882a3.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "b479a698-430c-4e16-87c0-a080305882a3.pdf",
       "AssetKind": "All",
@@ -1366,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot/b479a698-430c-4e16-87c0-a080305882a3.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/b63ed345-4f94-46d9-abe5-dc65157866c5.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/b63ed345-4f94-46d9-abe5-dc65157866c5.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "b63ed345-4f94-46d9-abe5-dc65157866c5.pdf",
       "AssetKind": "All",
@@ -1385,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot/b63ed345-4f94-46d9-abe5-dc65157866c5.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/b7e5b47c-4441-4bbd-80e2-bd1a8724f6d1.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/b7e5b47c-4441-4bbd-80e2-bd1a8724f6d1.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "b7e5b47c-4441-4bbd-80e2-bd1a8724f6d1.jpg",
       "AssetKind": "All",
@@ -1404,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot/b7e5b47c-4441-4bbd-80e2-bd1a8724f6d1.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/b9bf869c-cce9-498e-94d5-1651ea3d9a10.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/b9bf869c-cce9-498e-94d5-1651ea3d9a10.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "b9bf869c-cce9-498e-94d5-1651ea3d9a10.docx",
       "AssetKind": "All",
@@ -1423,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot/b9bf869c-cce9-498e-94d5-1651ea3d9a10.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/bae9361a-6e1b-4866-b85a-d805733788d1.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/bae9361a-6e1b-4866-b85a-d805733788d1.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "bae9361a-6e1b-4866-b85a-d805733788d1.pdf",
       "AssetKind": "All",
@@ -1442,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/bae9361a-6e1b-4866-b85a-d805733788d1.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/bedc0543-f0a8-4a49-a102-b2425680c893.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/bedc0543-f0a8-4a49-a102-b2425680c893.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "bedc0543-f0a8-4a49-a102-b2425680c893.pdf",
       "AssetKind": "All",
@@ -1461,10 +1651,29 @@
       "OriginalItemSpec": "wwwroot/bedc0543-f0a8-4a49-a102-b2425680c893.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/c11dd7c8-90fb-482e-b045-93b713840cb4.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/bf615f97-b091-4c8d-8c6a-599d80bc9b8f.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "bf615f97-b091-4c8d-8c6a-599d80bc9b8f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bf615f97-b091-4c8d-8c6a-599d80bc9b8f.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/c11dd7c8-90fb-482e-b045-93b713840cb4.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "c11dd7c8-90fb-482e-b045-93b713840cb4.pdf",
       "AssetKind": "All",
@@ -1480,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot/c11dd7c8-90fb-482e-b045-93b713840cb4.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/c2a2d879-7fe5-440c-952d-e269bb419ece.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/c2a2d879-7fe5-440c-952d-e269bb419ece.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "c2a2d879-7fe5-440c-952d-e269bb419ece.pdf",
       "AssetKind": "All",
@@ -1499,10 +1708,29 @@
       "OriginalItemSpec": "wwwroot/c2a2d879-7fe5-440c-952d-e269bb419ece.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/c4a0e38d-081b-43d3-ad8f-26bf6cb18932.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/c3a1389c-1f19-43f1-aac7-231872c04904.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "c3a1389c-1f19-43f1-aac7-231872c04904.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/c3a1389c-1f19-43f1-aac7-231872c04904.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/c4a0e38d-081b-43d3-ad8f-26bf6cb18932.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "c4a0e38d-081b-43d3-ad8f-26bf6cb18932.jpg",
       "AssetKind": "All",
@@ -1518,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot/c4a0e38d-081b-43d3-ad8f-26bf6cb18932.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/c7445d7f-cb0a-4a94-843e-789ff8eb6dfc.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/c7445d7f-cb0a-4a94-843e-789ff8eb6dfc.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "c7445d7f-cb0a-4a94-843e-789ff8eb6dfc.jpg",
       "AssetKind": "All",
@@ -1537,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot/c7445d7f-cb0a-4a94-843e-789ff8eb6dfc.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ca3fa284-9c14-4035-8cbb-1bed633abc3b.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ca3fa284-9c14-4035-8cbb-1bed633abc3b.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ca3fa284-9c14-4035-8cbb-1bed633abc3b.jpg",
       "AssetKind": "All",
@@ -1556,10 +1784,29 @@
       "OriginalItemSpec": "wwwroot/ca3fa284-9c14-4035-8cbb-1bed633abc3b.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/cdd9ee54-d5e0-42a6-b033-b218abf812bf.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/cd6ccec5-a4c5-47cf-9678-fe0dd1f991fc.docx",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "cd6ccec5-a4c5-47cf-9678-fe0dd1f991fc.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/cd6ccec5-a4c5-47cf-9678-fe0dd1f991fc.docx"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/cdd9ee54-d5e0-42a6-b033-b218abf812bf.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "cdd9ee54-d5e0-42a6-b033-b218abf812bf.pdf",
       "AssetKind": "All",
@@ -1575,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot/cdd9ee54-d5e0-42a6-b033-b218abf812bf.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/d094e62f-fcb3-4d9c-9629-08ea4be606f0.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/d094e62f-fcb3-4d9c-9629-08ea4be606f0.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "d094e62f-fcb3-4d9c-9629-08ea4be606f0.jpg",
       "AssetKind": "All",
@@ -1594,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot/d094e62f-fcb3-4d9c-9629-08ea4be606f0.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/d214ee83-1c6f-43d7-bc55-07aa1f5eb0be.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/d214ee83-1c6f-43d7-bc55-07aa1f5eb0be.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "d214ee83-1c6f-43d7-bc55-07aa1f5eb0be.jpg",
       "AssetKind": "All",
@@ -1613,10 +1860,29 @@
       "OriginalItemSpec": "wwwroot/d214ee83-1c6f-43d7-bc55-07aa1f5eb0be.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/d91f9b8f-c3dd-42c7-8bdb-12f6cfb9142a.docx",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/d59e2f8d-f601-452b-a2ba-46c11ebb46e7.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "d59e2f8d-f601-452b-a2ba-46c11ebb46e7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/d59e2f8d-f601-452b-a2ba-46c11ebb46e7.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/d91f9b8f-c3dd-42c7-8bdb-12f6cfb9142a.docx",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "d91f9b8f-c3dd-42c7-8bdb-12f6cfb9142a.docx",
       "AssetKind": "All",
@@ -1632,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot/d91f9b8f-c3dd-42c7-8bdb-12f6cfb9142a.docx"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/da2c7636-eff7-4339-9801-d8c526c6db21.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/da2c7636-eff7-4339-9801-d8c526c6db21.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "da2c7636-eff7-4339-9801-d8c526c6db21.jpg",
       "AssetKind": "All",
@@ -1651,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot/da2c7636-eff7-4339-9801-d8c526c6db21.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/dfa39450-f569-44eb-a3d9-ae01f44161f1.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/dfa39450-f569-44eb-a3d9-ae01f44161f1.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "dfa39450-f569-44eb-a3d9-ae01f44161f1.jpg",
       "AssetKind": "All",
@@ -1670,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot/dfa39450-f569-44eb-a3d9-ae01f44161f1.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/e4b8dc1d-0e16-46b3-8d68-131649199c09.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/e4b8dc1d-0e16-46b3-8d68-131649199c09.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "e4b8dc1d-0e16-46b3-8d68-131649199c09.pdf",
       "AssetKind": "All",
@@ -1689,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/e4b8dc1d-0e16-46b3-8d68-131649199c09.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ec86f353-30b4-4bc3-8f13-57697395c5be.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ec86f353-30b4-4bc3-8f13-57697395c5be.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ec86f353-30b4-4bc3-8f13-57697395c5be.jpg",
       "AssetKind": "All",
@@ -1708,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot/ec86f353-30b4-4bc3-8f13-57697395c5be.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ed9f1833-0216-4490-b48a-6ad63773e377.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ed9f1833-0216-4490-b48a-6ad63773e377.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ed9f1833-0216-4490-b48a-6ad63773e377.pdf",
       "AssetKind": "All",
@@ -1727,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot/ed9f1833-0216-4490-b48a-6ad63773e377.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ef6a880a-a9b6-40eb-a9f2-b8abfdf43735.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ef6a880a-a9b6-40eb-a9f2-b8abfdf43735.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ef6a880a-a9b6-40eb-a9f2-b8abfdf43735.pdf",
       "AssetKind": "All",
@@ -1746,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot/ef6a880a-a9b6-40eb-a9f2-b8abfdf43735.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f075b56d-1096-4ee2-809f-81e14376167f.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f075b56d-1096-4ee2-809f-81e14376167f.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f075b56d-1096-4ee2-809f-81e14376167f.pdf",
       "AssetKind": "All",
@@ -1765,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot/f075b56d-1096-4ee2-809f-81e14376167f.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f3026226-e367-4aec-9cfa-66689e59aedf.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f3026226-e367-4aec-9cfa-66689e59aedf.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f3026226-e367-4aec-9cfa-66689e59aedf.jpg",
       "AssetKind": "All",
@@ -1784,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot/f3026226-e367-4aec-9cfa-66689e59aedf.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f4de303d-c4fa-4f57-9a3f-ed7d2d9ae67e.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f4de303d-c4fa-4f57-9a3f-ed7d2d9ae67e.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f4de303d-c4fa-4f57-9a3f-ed7d2d9ae67e.jpg",
       "AssetKind": "All",
@@ -1803,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot/f4de303d-c4fa-4f57-9a3f-ed7d2d9ae67e.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f5410165-ccb3-4bbf-b7ea-dd32da7aa25f.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f5410165-ccb3-4bbf-b7ea-dd32da7aa25f.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f5410165-ccb3-4bbf-b7ea-dd32da7aa25f.jpg",
       "AssetKind": "All",
@@ -1822,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot/f5410165-ccb3-4bbf-b7ea-dd32da7aa25f.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f7fb83d1-a8e2-4f76-b7f1-872d69a344a7.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f7fb83d1-a8e2-4f76-b7f1-872d69a344a7.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f7fb83d1-a8e2-4f76-b7f1-872d69a344a7.jpg",
       "AssetKind": "All",
@@ -1841,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot/f7fb83d1-a8e2-4f76-b7f1-872d69a344a7.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f9c6ad3f-2dfb-44bc-90bd-5aafe260e3ce.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f9c6ad3f-2dfb-44bc-90bd-5aafe260e3ce.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f9c6ad3f-2dfb-44bc-90bd-5aafe260e3ce.jpg",
       "AssetKind": "All",
@@ -1860,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot/f9c6ad3f-2dfb-44bc-90bd-5aafe260e3ce.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/f9ec1087-9a92-4aeb-af0d-1b1acbee5a28.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/f9ec1087-9a92-4aeb-af0d-1b1acbee5a28.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "f9ec1087-9a92-4aeb-af0d-1b1acbee5a28.pdf",
       "AssetKind": "All",
@@ -1879,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot/f9ec1087-9a92-4aeb-af0d-1b1acbee5a28.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/fc9568be-de28-4364-a5b0-47c278fd8700.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/fc9568be-de28-4364-a5b0-47c278fd8700.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "fc9568be-de28-4364-a5b0-47c278fd8700.pdf",
       "AssetKind": "All",
@@ -1898,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot/fc9568be-de28-4364-a5b0-47c278fd8700.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/ff6b66bb-99c7-4f0b-81dc-23d21c7b3dc5.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/ff6b66bb-99c7-4f0b-81dc-23d21c7b3dc5.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "ff6b66bb-99c7-4f0b-81dc-23d21c7b3dc5.jpg",
       "AssetKind": "All",
@@ -1917,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot/ff6b66bb-99c7-4f0b-81dc-23d21c7b3dc5.jpg"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/images/5c7d5cdc-f06b-4d5e-adfe-f6c363a8041a.pdf",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/images/5c7d5cdc-f06b-4d5e-adfe-f6c363a8041a.pdf",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "images/5c7d5cdc-f06b-4d5e-adfe-f6c363a8041a.pdf",
       "AssetKind": "All",
@@ -1936,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot/images/5c7d5cdc-f06b-4d5e-adfe-f6c363a8041a.pdf"
     },
     {
-      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/images/cdb21479-29bf-42e3-b351-188869a3bd84.jpg",
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/images/cdb21479-29bf-42e3-b351-188869a3bd84.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors_backend/backend/wwwroot/",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
       "BasePath": "_content/backend",
       "RelativePath": "images/cdb21479-29bf-42e3-b351-188869a3bd84.jpg",
       "AssetKind": "All",

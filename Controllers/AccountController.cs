@@ -92,7 +92,7 @@ namespace Api.Controllers
         {
             return new UserDto
             {
-                Id = user.Id.ToString(),
+                //Id = user.Id.ToString(),
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Email = user.Email,
@@ -129,7 +129,7 @@ namespace Api.Controllers
                 // Assuming Doctor model inherits from User model or you have a separate User model
                 var userFromDoctor = new User
                 {
-                    Id = doctor.Id.ToString(),
+                    //Id = doctor.Id.ToString(),
                     FirstName = doctor.FirstName,
                     PrivateNumber = doctor.PrivateNumber,
                     LastName = doctor.LastName,
@@ -240,7 +240,7 @@ namespace Api.Controllers
 
             var userToAdd = new User
             {
-                Id = model.Id.ToString(),
+                //Id = model.Id.ToString(),
                 FirstName = model.FirstName.ToLower(),
                 LastName = model.LastName.ToLower(),
                 UserName = model.Email.ToLower(),
@@ -255,25 +255,56 @@ namespace Api.Controllers
 
             return Ok(new JsonResult(new { title = "Registration successful", message = "Please check your email to verify your account" }));
         }
-
-
-
-
-        [HttpPost("forgot-username-or-password/{email}")]
-        public async Task<IActionResult> ForgotUsernameOrPassword(string email)
+        [HttpPost("check-reset-code")]
+        public async Task<IActionResult> CheckResetCode(CheckResetCodeDto model)
         {
-            if (string.IsNullOrEmpty(email)) return BadRequest("Invalid email");
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return Unauthorized("This email address has not been registered yet");
+            }
 
-            var user = await _userManager.FindByEmailAsync(email);
+            // Check if the reset code matches
+            if (user.ResetCode == model.Code)
+            {
+                // Codes match, return success response
+                return Ok(new { codeMatched = true });
+            }
 
+            // Codes do not match, return error response
+            return Ok(new { codeMatched = false });
+        }
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordDto model)
+        {
+            if (string.IsNullOrEmpty(model.Email)) return BadRequest("Invalid email");
+
+            var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null) return Unauthorized("This email address has not been registered yet");
             if (user.EmailConfirmed == false) return BadRequest("Please confirm your email address first.");
 
             try
             {
-                if (await SendForgotUsernameOrPasswordEmail(user))
+                // Generate a random four-digit code
+                var random = new Random();
+                var code = random.Next(1000, 9999).ToString();
+
+                // Save the code to the user's record
+                user.ResetCode = code;
+                await _userManager.UpdateAsync(user);
+
+                // Compose the email body
+                var body = $"<p>Hello {user.FirstName} {user.LastName},</p>" +
+                           $"<p>Your reset code is: <strong>{code}</strong></p>" +
+                           "<p>Please enter this code to reset your password.</p>" +
+                           "<p>Thank you,</p>" +
+                           $"<br>{_config["Email:ApplicationName"]}";
+
+                var emailSend = new EmailSendDto(user.Email, "Password Reset Code", body);
+
+                if (await _emailService.SendEmailAsync(emailSend))
                 {
-                    return Ok(new JsonResult(new { title = "Forgot username or password email sent", message = "Please check your email" }));
+                    return Ok(new JsonResult(new { title = "Password reset code sent", message = "Please check your email" }));
                 }
 
                 return BadRequest("Failed to send email. Please contact admin");
@@ -284,29 +315,37 @@ namespace Api.Controllers
             }
         }
 
-        [HttpPut("reset-password")]
+
+
+
+
+
+
+        [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPassword(ResetPasswordDto model)
         {
+            // Find the user by email
             var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null) return Unauthorized("This email address has not been registered yet");
-            if (user.EmailConfirmed == false) return BadRequest("Please confirm your email address first");
-
-            try
+            if (user == null)
             {
-                var decodedTokenBytes = WebEncoders.Base64UrlDecode(model.Token);
-                var decodedToken = Encoding.UTF8.GetString(decodedTokenBytes);
-
-                var result = await _userManager.ResetPasswordAsync(user, decodedToken, model.NewPassword);
-                if (result.Succeeded)
-                {
-                    return Ok(new JsonResult(new { title = "Password reset success", message = "Your password has been reset" }));
-                }
-
-                return BadRequest("Invalid token. Please try again");
+                // User not found
+                return NotFound("User not found");
             }
-            catch (Exception)
+
+            // Generate a password reset token for the user
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            // Reset the password using the generated token and the new password
+            var resetPasswordResult = await _userManager.ResetPasswordAsync(user, token, model.NewPassword);
+            if (resetPasswordResult.Succeeded)
             {
-                return BadRequest("Invalid token. Please try again");
+                // Password reset successfully
+                return Ok(new { message = "Password changed successfully" });
+            }
+            else
+            {
+                // Failed to reset password
+                return BadRequest("Failed to reset password");
             }
         }
 
