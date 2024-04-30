@@ -341,7 +341,7 @@ namespace backend.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("backend.Models.VerifyMails", b =>
+            modelBuilder.Entity("backend.Models.VerifyMail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
