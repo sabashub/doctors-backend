@@ -267,6 +267,14 @@ namespace Api.Controllers
                 return BadRequest($"An existing account is using {model.Email}, email address. Please try with another email address");
             }
 
+            var emailRecord = await _context.VerifyMails.FirstOrDefaultAsync(d => d.Email == model.Email && d.Token == model.activationCode);
+
+            if (emailRecord == null)
+            {
+                return BadRequest("Invalid email or activation code");
+            }
+
+
             var userToAdd = new User
             {
                 //  Id = model.Id.ToString(),
@@ -344,6 +352,71 @@ namespace Api.Controllers
             }
         }
 
+
+
+
+
+
+
+
+
+
+        [HttpPost("verify-mail")]
+        public async Task<IActionResult> verifyMail(ForgotPasswordDto model)
+        {
+            if (string.IsNullOrEmpty(model.Email)) return BadRequest("Invalid email");
+
+            try
+            {
+                // Generate a random four-digit code
+                var random = new Random();
+                var code = random.Next(1000, 9999).ToString();
+
+                var emailRecord = await _context.VerifyMails.FirstOrDefaultAsync(d => d.Email == model.Email);
+
+
+                if (emailRecord != null)
+                {
+                    emailRecord.Token = code;
+                    _context.VerifyMails.Update(emailRecord);
+                    await _context.SaveChangesAsync();
+
+                }
+                else
+                {
+
+                    var VerifyEmaiInstance = new VerifyMail
+                    {
+                        Email = model.Email.ToLower(),
+                        Token = code
+                    };
+                    _context.VerifyMails.Add(VerifyEmaiInstance);
+                    await _context.SaveChangesAsync();
+
+                }
+
+
+
+                var body = $"<p>Hello</p>" +
+                               $"<p>Your Confirmation code is: <strong>{code}</strong></p>" +
+                               "<p>Please enter this code to Confirm Account.</p>" +
+                               "<p>Thank you,</p>" +
+                               $"<br>{_config["Email:ApplicationName"]}";
+
+                var emailSend = new EmailSendDto(model.Email, "Account Activation", body);
+
+                if (await _emailService.SendEmailAsync(emailSend))
+                {
+                    return Ok(new JsonResult(new { title = "Account Activation code sent", fsa = emailRecord, message = "Please check your email" }));
+                }
+
+                return BadRequest("Failed to send email. Please contact admin");
+            }
+            catch (Exception)
+            {
+                return BadRequest("Failed to send email. Please contact admin");
+            }
+        }
 
         [HttpPost("reset-password")]
         public async Task<IActionResult> ResetPassword(ResetPasswordDto model)

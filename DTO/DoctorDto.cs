@@ -11,7 +11,7 @@ namespace backend.DTO
         public string ImageUrl { get; set; }
         public string CVUrl { get; set; }
         public string JWT { get; set; }
-
+        public string Achievements { get; set; }
         public string Type { get; set; }
 
     }

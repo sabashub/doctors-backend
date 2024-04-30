@@ -21,6 +21,8 @@ namespace backend.DTO
 
         public string Password { get; set; }
 
+        public string activationCode { get; set; }
+
 
     }
 }

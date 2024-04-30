@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Gg8eOlySCpaH0Z/eVyxhs1oG6SIk19cWSbVIs5Jo2E=",
+  "Hash": "Nn5yRn/fGPG6u/baXK+R++3pSitXEWRo37ASvY0U2kc=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -340,6 +340,25 @@
       "OriginalItemSpec": "wwwroot/28b5bb0c-9e63-41b8-b47d-28d0effd2c3e.pdf"
     },
     {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/29125703-f31d-4935-ad87-c5c4512a3acb.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "29125703-f31d-4935-ad87-c5c4512a3acb.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/29125703-f31d-4935-ad87-c5c4512a3acb.pdf"
+    },
+    {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/2a037b43-10a4-4187-958b-960b542e7fdb.png",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -566,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/382fd18b-7c63-4ec1-b8ef-f50500b50a28.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3ac27d79-bf3d-4a8f-a37e-6732cd81a554.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "3ac27d79-bf3d-4a8f-a37e-6732cd81a554.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/3ac27d79-bf3d-4a8f-a37e-6732cd81a554.jpg"
     },
     {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/3cd78b16-b3c6-4dae-a193-ffd1574393fb.jpg",
@@ -1233,6 +1271,25 @@
       "OriginalItemSpec": "wwwroot/80b8efdc-31e9-423e-8a99-eccff8dbd0f8.jpg"
     },
     {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/826f4cd7-7861-4d46-9a10-2efb9a4eec94.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "826f4cd7-7861-4d46-9a10-2efb9a4eec94.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/826f4cd7-7861-4d46-9a10-2efb9a4eec94.pdf"
+    },
+    {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -1250,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/832db4a4-5787-4f2c-83ad-cfc33dc800a5.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/86da7c51-df0f-4b31-bd1d-ee67a8b28a34.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "86da7c51-df0f-4b31-bd1d-ee67a8b28a34.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/86da7c51-df0f-4b31-bd1d-ee67a8b28a34.jpg"
     },
     {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/8ad9c352-350c-4712-aaef-f5b611047e5a.png",
@@ -1326,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/9024109d-41c7-4d7a-9c4b-cc3f6aa8ab98.pdf"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/948390bf-0942-4621-ac48-728da18a6e88.pdf",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "948390bf-0942-4621-ac48-728da18a6e88.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/948390bf-0942-4621-ac48-728da18a6e88.pdf"
     },
     {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/96d4bb15-834f-4a60-88cb-7062eec46340.pdf",
@@ -1972,6 +2067,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/dfa39450-f569-44eb-a3d9-ae01f44161f1.jpg"
+    },
+    {
+      "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/e057442e-36c8-4331-8d90-348d2716905f.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/",
+      "BasePath": "_content/backend",
+      "RelativePath": "e057442e-36c8-4331-8d90-348d2716905f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/e057442e-36c8-4331-8d90-348d2716905f.jpg"
     },
     {
       "Identity": "/Users/sabashubitidze/Desktop/Doctors_new/doctors-backend/wwwroot/e34fc8a0-121e-4f95-8a30-9bae85fd8dfc.pdf",

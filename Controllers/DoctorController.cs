@@ -53,6 +53,7 @@ namespace backend.Controllers
                 Category = model.Category,
                 ImageUrl = await SaveFile(model.Image),
                 CVUrl = await SaveFile(model.CV),
+                Achievements = model.Achievements
 
             };
 
@@ -81,7 +82,8 @@ namespace backend.Controllers
                 JWT = jwt,
                 ImageUrl = GetImageUrl(doctor.ImageUrl),
                 CVUrl = GetImageUrl(doctor.CVUrl),
-                Type = "Doctor"
+                Type = "Doctor",
+                Achievements = doctor.Achievements,
 
             };
             return Ok(LoggedInDoctor);
@@ -135,7 +137,8 @@ namespace backend.Controllers
                 PrivateNumber = d.PrivateNumber,
                 Category = d.Category,
                 ImageUrl = GetImageUrl(d.ImageUrl),
-                CVUrl = GetImageUrl(d.CVUrl)
+                CVUrl = GetImageUrl(d.CVUrl),
+                Achievements = d.Achievements
             }).ToList();
 
             return Ok(doctorDtos);
@@ -160,7 +163,8 @@ namespace backend.Controllers
                 PrivateNumber = doctor.PrivateNumber,
                 Category = doctor.Category,
                 ImageUrl = GetImageUrl(doctor.ImageUrl),
-                CVUrl = GetImageUrl(doctor.CVUrl)
+                CVUrl = GetImageUrl(doctor.CVUrl),
+                Achievements = doctor.Achievements
             };
 
             return Ok(doctorDto);

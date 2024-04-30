@@ -32,6 +32,8 @@ namespace backend.Models
         [Required]
         public IFormFile CV { get; set; }
 
+        public string Achievements { get; set; }
+
 
 
 

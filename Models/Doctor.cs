@@ -30,6 +30,7 @@ namespace backend.Models
 
         public string CVUrl { get; set; }
 
+        public string Achievements { get; set; }
 
     }
 }

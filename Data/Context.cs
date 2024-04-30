@@ -16,9 +16,9 @@ namespace backend.Data
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Admin> Admins { get; set; }
+        public DbSet<VerifyMail> VerifyMails { get; set; }
 
         public DbSet<Appointment> Appointments { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -27,7 +27,7 @@ namespace backend.Data
             modelBuilder.Entity<User>().HasKey(u => u.Id);
             modelBuilder.Entity<Admin>().HasKey(a => a.Id);
             modelBuilder.Entity<Doctor>().HasKey(a => a.Id);
-
+            modelBuilder.Entity<VerifyMail>().HasKey(u => u.Id);
         }
     }
 }
