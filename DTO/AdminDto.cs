@@ -8,5 +8,7 @@ namespace backend.DTO
 
         public string Type { get; set; }
 
+        public string JWT { get; set; }
+
     }
 }

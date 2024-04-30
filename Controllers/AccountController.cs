@@ -61,24 +61,54 @@ namespace Api.Controllers
 
         [Authorize]
         [HttpGet("refresh-user-token")]
-        public async Task<ActionResult<UserDto>> RefreshUserToken()
+        public async Task<ActionResult<object>> RefreshUserToken()
         {
-            var user = await _userManager.FindByNameAsync(User.FindFirst(ClaimTypes.Email)?.Value);
-            var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.Email == user.UserName);
-            var admin = await _context.Admins.FirstOrDefaultAsync(d => d.Email == user.UserName);
+            var userEmailClaim = User.FindFirst(ClaimTypes.Email).Value;
+            var user = await _userManager.FindByNameAsync(userEmailClaim);
+            var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.Email == userEmailClaim);
+            var admin = await _context.Admins.FirstOrDefaultAsync(d => d.Email == userEmailClaim);
             string userType = admin != null ? "Admin" : doctor != null ? "Doctor" : "User";
 
-            return new UserDto
+            if (doctor != null)
             {
-                Id = user.Id.ToString(),
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Email = user.Email,
-                PrivateNumber = user.PrivateNumber,
-                JWT = _jwtService.CreateJWT(user),
-                Type = userType
-            };
+                return new DoctorDto
+                {
+                    Id = doctor.Id,
+                    FirstName = doctor.FirstName,
+                    LastName = doctor.LastName,
+                    Email = doctor.Email,
+                    PrivateNumber = doctor.PrivateNumber,
+                    JWT = _jwtService.CreateJWTForDoctor(doctor),
+                    ImageUrl = GetImageUrl(doctor.ImageUrl),
+                    CVUrl = GetImageUrl(doctor.CVUrl),
+                    Type = userType
+                };
+            }
+            else if (admin != null)
+            {
+                return new AdminDto
+                {
+                    Id = admin.Id,
+                    Email = admin.Email,
+                    JWT = _jwtService.CreateJWTForAdmin(admin),
+                    Type = userType
+                };
+            }
+            else
+            {
+                return new UserDto
+                {
+                    Id = user.Id.ToString(),
+                    FirstName = user.FirstName,
+                    LastName = user.LastName,
+                    Email = user.Email,
+                    PrivateNumber = user.PrivateNumber,
+                    JWT = _jwtService.CreateJWT(user),
+                    Type = "User"
+                };
+            }
         }
+
         private UserDto CreateApplicationUserDto(User user, string type)
         {
             return new UserDto
@@ -150,10 +180,18 @@ namespace Api.Controllers
 
             // Try to log in as an admin
             var admin = await _context.Admins.FirstOrDefaultAsync(a => a.Email == model.UserName && a.Password == model.Password);
-            if (admin != null)
+
+            var admin_jwt = _jwtService.CreateJWTForAdmin(admin);
+
+            var LoggedInAdmin = new AdminDto
             {
-                return Ok(admin);
-            }
+                Id = admin.Id,
+                Email = admin.Email,
+                JWT = admin_jwt,
+                Type = "Admin"
+
+            };
+            return Ok(LoggedInAdmin);
 
             // If neither user, doctor, nor admin is found, return unauthorized
             return Unauthorized("Invalid username or password");

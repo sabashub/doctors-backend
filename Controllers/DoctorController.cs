@@ -70,19 +70,7 @@ namespace backend.Controllers
             {
                 return Unauthorized("Invalid email or password");
             }
-
-            // Assuming Doctor model inherits from User model or you have a separate User model
-            var user = new User
-            {
-                Id = doctor.Id.ToString(),
-                FirstName = doctor.FirstName,
-                PrivateNumber = doctor.PrivateNumber,
-                LastName = doctor.LastName,
-                Email = doctor.Email
-                // Add any other properties if needed
-            };
-
-            var jwt = _jwtService.CreateJWT(user);
+            var jwt = _jwtService.CreateJWTForDoctor(doctor);
             var LoggedInDoctor = new DoctorDto
             {
                 Id = doctor.Id,

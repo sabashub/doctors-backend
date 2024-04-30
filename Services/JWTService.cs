@@ -1,4 +1,3 @@
-
 using backend.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -45,5 +44,50 @@ namespace backend.Services
             var jwt = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(jwt);
         }
+        public string CreateJWTForDoctor(Doctor user)
+        {
+            var doctorClaims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Email, user.Email),
+        new Claim(ClaimTypes.GivenName, user.FirstName),
+        new Claim(ClaimTypes.Surname, user.LastName)
+    };
+
+            var credentials = new SigningCredentials(_jwtKey, SecurityAlgorithms.HmacSha512Signature);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(doctorClaims),
+                Expires = DateTime.UtcNow.AddDays(int.Parse(_config["JWT:ExpiresInDays"])),
+                SigningCredentials = credentials,
+                Issuer = _config["JWT:Issuer"]
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwt = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(jwt);
+        }
+
+        public string CreateJWTForAdmin(Admin user)
+        {
+            var adminClaims = new List<Claim>
+    {
+      new Claim(ClaimTypes.Email, user.Email),
+    };
+
+            var credentials = new SigningCredentials(_jwtKey, SecurityAlgorithms.HmacSha512Signature);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(adminClaims),
+                Expires = DateTime.UtcNow.AddDays(int.Parse(_config["JWT:ExpiresInDays"])),
+                SigningCredentials = credentials,
+                Issuer = _config["JWT:Issuer"]
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwt = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(jwt);
+        }
+
     }
 }
